@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <script>
+    function goto_id(id) {
+      var about = $('#' + id)[0];
+      about.scrollIntoView();
+      return false;
+    }
+  </script>
+
+
+  <div class="cover">
+    <div class="site-name">
+      <div class="site-name__inner">
+        <div class="name">MAILBOX2</div>
+        <div class="desc">Go trough your mailbox in seconds again</div>
+        <a class="btn" href="/">About</div>
+        <div class="btn" onclick="alert('asd'); return false;">Contact</div>
+      </div>
+    </div>
+  </div>
+{{ content }}
+
+</html>

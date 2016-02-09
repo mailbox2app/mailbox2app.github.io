@@ -1,0 +1,58 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+  <div id="about" class=" page-content post-content">
+    <h1>Because email is not about reading.</h1>
+    <p>We believe that email is not about reading or replying.
+      <br> Email is meant to be cleaned up to zero as fast as possible.</p>
+    <table>
+      <tr>
+        <td><img src="/img/delete.jpg" height="64px"></td>
+        <td><b>Archive or delete</b> everything you can.</td>
+      </tr>
+      <tr>
+        <td><img src="/img/delegate.jpg" height="64px"></td>
+        <td><b>Delegate</b> what someone can do for you.</td>
+      </tr>
+      <tr>
+        <td><img src="/img/postpone.jpg" height="64px"></td>
+        <td><b>Postpone</b> everything that you cannot handle right now.</td>
+      </tr>
+      <tr>
+        <td><img src="/img/todo.jpg" height="64px"></td>
+        <td><b>Create Todo</b> tasks from what you need to take care of.</td>
+      </tr>
+      <tr>
+        <td><img src="/img/read.jpg" height="64px"></td>
+        <td><b>Read and reply</b> to what's left and is important.</td>
+      </tr>
+    </table>
+  <div>
+    <p>So we're creating new mobile email client that is focused exactly on these tasks</p>
+      <p>It will make inbox cleanup a breeze, allow to postpone emails,
+      integrate with your todo list and make email delegation easier. For just <b>3.99$</b></p>
+      <p>If you're interested please leave us your email, so we can keep you informed how it's progressing and let you know when it's ready.</p>
+  </div>
+  <div class="email-form">
+  <form action="https://docs.google.com/forms/d/1D3b-eK8GzMmofru08ncKm_TKU4OEoL1JQ0YgsisOFk8/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
+  <div>Email<span class="asterisk">*</span></div>
+  <div><input type="email" name="entry.186563952" id="entry_186563952" dsize="30" required placeholder="Enter your email address">
+  </div>
+  <input type="hidden" name="draftResponse" value="[,,&quot;-6278033538162919265&quot;]">
+  <input type="hidden" name="pageHistory" value="0">
+  <input type="hidden" name="fvv" value="0">
+  <input type="hidden" name="fbzx" value="-6278033538162919265">
+  <input type="submit" name="submit" value="Submit" id="ss-submit" class="contact-submit">
+  </form>
+  </div>
+  <div>
+  We won't send you any spam. We promise.<br>
+  ​Thanks for your support.
+  </div>
+  <div class="footer-small">
+    <a href="http://www.freepik.com/free-photos-vectors/icon">Icon vector designed by Freepik</a>
+  </div>
+</div>

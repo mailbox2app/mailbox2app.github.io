@@ -1,0 +1,90 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Montserrat', sans-serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #515151;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    540px;
+
+$on-palm:          540px;
+$on-laptop:        540px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+.footer-small {
+  font-size: 10px;
+  text-align: right;
+
+  a{
+    color: lightgrey;
+  }
+}
+
+.email-form {
+  max-width: 540px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  .asterisk {
+    color: rgb(175, 67, 64);
+  }
+
+  input, textarea {
+    line-height: 24px;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 2px 0;
+  }
+
+  input.contact-submit {
+    color: #fff;
+    background-color: rgb(175, 67, 64);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 0;
+    border: 0px solid;
+    margin-top: 5px;
+  }
+}
