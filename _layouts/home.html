@@ -18,8 +18,8 @@
       <div class="site-name__inner">
         <div class="name">MAILBOX<sup>2</sup></div>
         <div class="desc">Go trough your mailbox in seconds again.</div>
-        <div class="btn" onclick="goto_about(); return false;">About</div>
-        <div class="btn" onclick="parent.location='/contact'">Contact</div>
+        <div class="btn" onclick="parent.location='{{site.github.url}}/about'">About</div>
+        <div class="btn" onclick="parent.location='{{site.github.url}}/contact'">Contact</div>
       </div>
     </div>
   </div>
@@ -30,23 +30,23 @@
         <br> Email is meant to be cleaned up to zero as fast as possible.</p>
       <table>
         <tr>
-          <td><img src="{{ site.baseurl }}/img/delete.jpg" height="64px"></td>
+          <td><img src="{{ site.github.url }}/img/delete.jpg" height="64px"></td>
           <td><b>Archive or delete</b> everything you can.</td>
         </tr>
         <tr>
-          <td><img src="{{ site.baseurl }}/img/delegate.jpg" height="64px"></td>
+          <td><img src="{{ site.github.url }}/img/delegate.jpg" height="64px"></td>
           <td><b>Delegate</b> what someone can do for you.</td>
         </tr>
         <tr>
-          <td><img src="{{ site.baseurl }}/img/postpone.jpg" height="64px"></td>
+          <td><img src="{{ site.github.url }}/img/postpone.jpg" height="64px"></td>
           <td><b>Postpone</b> everything that you cannot handle right now.</td>
         </tr>
         <tr>
-          <td><img src="{{ site.baseurl }}/img/todo.jpg" height="64px"></td>
+          <td><img src="{{ site.github.url }}/img/todo.jpg" height="64px"></td>
           <td><b>Create Todo</b> tasks from what you need to take care of.</td>
         </tr>
         <tr>
-          <td><img src="{{ site.baseurl }}/img/read.jpg" height="64px"></td>
+          <td><img src="{{ site.github.url }}/img/read.jpg" height="64px"></td>
           <td><b>Read and reply</b> to what's left and is important.</td>
         </tr>
       </table>
