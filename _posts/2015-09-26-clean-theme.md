@@ -8,6 +8,10 @@ date:   2015-09-26 18:51:59
     <h1>Because email is not about reading.</h1>
     <p>We believe that email is not about reading or replying.
       <br> Email is meant to be cleaned up to zero as fast as possible.</p>
+      <div>
+      <img src="img/phone.png">
+      </div>
+      <div>
     <table>
       <tr>
         <td><img src="img/delete.jpg" height="64px"></td>
@@ -30,6 +34,7 @@ date:   2015-09-26 18:51:59
         <td><b>Read and reply</b> to what's left and is important.</td>
       </tr>
     </table>
+    </div>
   </div>
   <div>
     <br>

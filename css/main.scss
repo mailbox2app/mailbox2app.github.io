@@ -44,10 +44,439 @@ $on-laptop:        540px;
 
 
 
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: rgb(175, 67, 64);
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+pre {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 540px;
+    display: block;
+    font-size: 0.875em;
+    font-family: Consolas;
+    color: #333;
+    line-height: 1.3em;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+code {
+    background: #fafafd;
+    padding: 0.063em;
+    border: 0.063em solid #dedede;
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+/**
+ * Site header
+ */
+.site-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 56px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    color: #444
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+
+    .page-link {
+        color: #444;
+    }
+    .page-link {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.page-heading {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #373737;
+    max-width: 540px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    font-family: 'Open Sans', sans-serif;
+    color: #373737;
+    margin-bottom: $spacing-unit;
+    max-width: 640px;
+    margin: 0 auto;
+
+    table {
+      margin: 20px 0;
+    }
+
+    p {
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+
+        max-width: 540px;
+        padding: 0px 10px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+
+        max-width: 540px;
+        padding: 0px 10px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+
+        max-width: 540px;
+        padding: 0px 10px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .highlight {
+        font-family: Consolas;
+        color: #333;
+        z-index: -1;
+        background: #fafafd;
+        border: 0.063em solid #dedede;
+        border-right: 0em solid #fff;
+        line-height: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        left: 0;
+        right: 0;
+        margin: 20px 0px;
+    }
+
+    ul {
+        max-width: 540px;
+        padding: 0 10px;
+        padding-left: 40px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+/**
+ * Home
+ */
+.home {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.home  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #444;
+    padding: 10px;
+}
+
+.home a:hover {
+    background: #fafafd;
+    outline:  1px solid #C3D5E4;
+}
+
+.home  a::before {
+    width: 0;
+}
+
+.home .post-meta {
+    text-align: right;
+}
+
+.cover {
+    color: rgb(241, 241, 241);
+    height: 100%;
+    background: url('../img/background_main3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.site-name {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    height: 100vh;
+}
+
+.site-name__inner {
+    max-height: 400px;
+    position: absolute;
+    bottom: 140px;
+    /* margin-bottom: 150px; */
+    /* width: 400px; */
+}
+
+.site-name__inner .name {
+    font-size: 15vmin;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.site-name__inner .desc {
+    font-size: 4vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-name__inner .btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-top: 20vh;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fafafd;
+    }
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
         "syntax-highlighting"
 ;
 
@@ -87,4 +516,19 @@ $on-laptop:        540px;
     border: 0px solid;
     margin-top: 5px;
   }
+}
+
+.text-smaller {
+  font-size: 12px;
+  color: #777;
+}
+
+.header-text-small {
+  font-size: 12px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
