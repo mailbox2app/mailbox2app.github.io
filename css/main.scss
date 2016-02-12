@@ -569,13 +569,12 @@ code {
 
 .social-share {
   margin: 10px auto;
-  display: flex;
+  position: absolute;
 
   .social-share-buttons {
     display: flex;
     padding: 0 10px 0 0;
     align-items: center;
-    justify-content: center;
     div {
       margin-right: 10px;
     }
