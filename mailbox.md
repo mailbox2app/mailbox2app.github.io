@@ -42,7 +42,7 @@ We won't send you any spam. We promise.<br>
       <td class="share-button">
         <div class="fb-share-button" data-href="http://www.mailbox2app.com/" data-layout="button"></div>
       </td>
-      <td class="share-button"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out these guys trying to make #mailbox alive again!">Tweet</a>
+      <td class="share-button"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out these guys trying to make #mailbox alive again!" data-url="http://mailbox2app.com/mailbox">Tweet</a>
       </td>
     </tr>
   </table>
