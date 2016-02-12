@@ -1,9 +1,9 @@
 # Site settings
 title: Mailbox2
 email: mailboxapp2@gmail.com
-description: Mailbox2 - Go trough your mailbox in seconds again. iPhone app to cleanup your inbox in seconds.
+description: Mailbox2 - Go trough your mailbox in seconds again. iPhone app to keep your inbox clean.
 #baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://mailbox2app.com" # the base hostname & protocol for your site
+url: "http://www.mailbox2app.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

@@ -19,23 +19,28 @@ permalink: /contact/
   <input type="submit" name="submit" value="Send" id="ss-submit" class="contact-submit">
 
 </form>
-  </div>
-  <div class="social-share">
-    <div class="social-share-buttons">
-      <div class="fb-share-button" data-href="http://www.mailbox2app.com/" data-layout="button"></div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Mailbox2 - App to go trough your mailbox in seconds again." data-hashtags="mailbox">Tweet</a>
-      <script>
-        ! function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0],
-            p = /^http:/.test(d.location) ? 'http' : 'https';
-          if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + '://platform.twitter.com/widgets.js';
-            fjs.parentNode.insertBefore(js, fjs);
-          }
-        }(document, 'script', 'twitter-wjs');
-      </script>
-    </div>
-  </div>
+<div class="social-share">
+  <table>
+    <tr>
+      <td class="share-button">
+        <div class="fb-share-button" data-href="http://www.mailbox2app.com/" data-layout="button"></div>
+      </td>
+      <td class="share-button"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Mailbox2 - App to go trough your mailbox in seconds again." data-hashtags="mailbox">Tweet</a>
+      </td>
+    </tr>
+  </table>
+  <script>
+    ! function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, 'script', 'twitter-wjs');
+  </script>
+</div>
+</div>  
 </div>

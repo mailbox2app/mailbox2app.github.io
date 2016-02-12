@@ -569,14 +569,8 @@ code {
 
 .social-share {
   margin: 10px auto;
-  position: absolute;
-
-  .social-share-buttons {
-    display: flex;
-    padding: 0 10px 0 0;
-    align-items: center;
-    div {
-      margin-right: 10px;
-    }
+  td.share-button {
+    vertical-align: top;
+    padding-right: 10px;
   }
 }
