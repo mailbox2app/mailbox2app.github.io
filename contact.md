@@ -20,4 +20,22 @@ permalink: /contact/
 
 </form>
   </div>
+  <div class="social-share">
+    <div class="social-share-buttons">
+      <div class="fb-share-button" data-href="http://www.mailbox2app.com/" data-layout="button"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Mailbox2 - Go trough your mailbox in seconds again. iPhone app to cleanup your inbox." data-hashtags="mailbox">Tweet</a>
+      <script>
+        ! function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, 'script', 'twitter-wjs');
+      </script>
+    </div>
+  </div>
 </div>

@@ -566,3 +566,18 @@ code {
 .arr-left  {transform:rotate(135deg);}
 .arr-up    {transform:rotate(-135deg);}
 .arr-down  {transform:rotate(45deg);}
+
+.social-share {
+  margin: 10px auto;
+  display: flex;
+
+  .social-share-buttons {
+    display: flex;
+    padding: 0 10px 0 0;
+    align-items: center;
+    justify-content: center;
+    div {
+      margin-right: 10px;
+    }
+  }
+}
