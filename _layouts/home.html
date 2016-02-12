@@ -6,8 +6,11 @@
 <body>
   <script>
     function goto_about() {
-      var about = $('#about')[0];
-      about.scrollIntoView();
+      //var about = $('#about')[0];
+      //about.scrollIntoView({behavior: 'smooth'});
+      $('html, body').animate({
+        scrollTop: $("#about").offset().top
+      }, 700);
       return false;
     }
   </script>
@@ -25,6 +28,7 @@
         <div class="btn" onclick="parent.location='{{site.github.url}}/contact'">Contact</div>
       </div>
     </div>
+    <div class="main-go-down" onclick="goto_about()"><i class="arr-down"></i></div>
   </div>
 
   <div id="about" class="page-content post-content container" style="margin-top: 50px;">
