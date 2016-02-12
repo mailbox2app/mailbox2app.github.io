@@ -59,5 +59,6 @@ We won't send you any spam. We promise.<br>
     }(document, 'script', 'twitter-wjs');
   </script>
 </div>
+<div class="fb-comments" data-href="http://www.mailbox2app.com/" data-numposts="5"></div>
 </div>
 </div>

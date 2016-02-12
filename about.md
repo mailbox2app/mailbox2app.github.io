@@ -49,7 +49,6 @@ permalink: /about/
   ​Thanks for your support.
   </div>
   <div class="social-share">
-  <div class="social-share">
     <table>
       <tr>
         <td class="share-button">
@@ -72,5 +71,6 @@ permalink: /about/
       }(document, 'script', 'twitter-wjs');
     </script>
   </div>
+  <div class="fb-comments" data-href="http://www.mailbox2app.com/" data-numposts="5"></div>
 </div>
 </div>
