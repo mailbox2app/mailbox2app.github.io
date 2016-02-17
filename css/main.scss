@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: 'Montserrat', sans-serif;
-$base-font-size:   18px;
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -318,7 +318,7 @@ code {
 }
 
 .post-content {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     color: #373737;
     margin-bottom: $spacing-unit;
     max-width: $content-width;
@@ -467,6 +467,7 @@ code {
 }
 
 .site-name__inner .btn {
+    font-family: 'Open Sans', sans-serif;
     padding: 10px 30px;
     border: 2px solid #fff;
     display: inline-block;
@@ -622,6 +623,7 @@ div.footer-content {
 }
 
 div.footer-links {
+  font-family: 'Open Sans', sans-serif;
   margin: auto;
   padding: 10px 40px 0 40px;
   max-width: $content-width;
