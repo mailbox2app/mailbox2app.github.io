@@ -13,6 +13,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$footer-color:     #ececec;
 $text-color:       #515151;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
@@ -22,10 +23,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    540px;
+$content-width:    740px;
 
-$on-palm:          540px;
-$on-laptop:        540px;
+$on-palm:          740px;
+$on-laptop:        740px;
 
 
 
@@ -317,7 +318,7 @@ code {
     font-family: 'Open Sans', sans-serif;
     color: #373737;
     margin-bottom: $spacing-unit;
-    max-width: 640px;
+    max-width: $content-width;
     margin: 0 auto;
 
     table {
@@ -573,4 +574,41 @@ code {
     vertical-align: top;
     padding-right: 10px;
   }
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  margin: 40px 0 40px 0;
+}
+
+button.action-button {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  /* font-style: italic; */
+  color: white;
+  background-color: #90bf34;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  &:hover {
+    background-color: #739F1A;
+  }
+}
+
+div.footer {
+  background-color: $footer-color;
+  height: 80px;
+}
+
+div.grass {
+  background: url('../img/grass.jpg') repeat-x left bottom;
+  height: 20px;
+  margin: 0;
+  padding: 0;
 }
