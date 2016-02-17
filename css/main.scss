@@ -17,6 +17,7 @@ $footer-color:     #ececec;
 $text-color:       #515151;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$blue-background-color: #29779d;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -24,6 +25,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    740px;
+$narrower-width:   640px;
 
 $on-palm:          740px;
 $on-laptop:        740px;
@@ -611,4 +613,27 @@ div.grass {
   height: 20px;
   margin: 0;
   padding: 0;
+}
+
+.phone-row {
+  max-width: $narrower-width;
+  text-align: middle;
+  margin: 0 auto;
+}
+
+.phone-image {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.phone-bullets {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
 }
