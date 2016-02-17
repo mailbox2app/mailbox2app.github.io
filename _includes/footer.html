@@ -1,0 +1,24 @@
+<div class="footer">
+  <div class="grass"></div>
+  <div class="footer-content">
+    <div class="footer-links">
+      <table>
+        <tr>
+          <td rowspan="99" style="padding-right: 40px;">
+            <img src="{{ site.github.url }}/img/alarm.png" height="50px">
+          </td>
+          <td class="footer-link">
+            <a class="footer-page-link" href="{{ site.github.url }}/">Home</a>
+          </td>
+          {% for page in site.pages %} {% if page.title %}
+          <tr>
+            <td class="footer-link">
+              <a class="footer-page-link" href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+            </td>
+          </tr>
+          {% endif %} {% endfor %}
+      </table>
+      <div class="footer-copyright">Copyright © 2016 Mailbox<sub>2</sub> Project</div>
+    </div>
+  </div>
+</div>

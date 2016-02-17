@@ -265,6 +265,7 @@ code {
     padding: $spacing-unit 0;
     margin-left: 40px;
     margin-right: 40px;
+    /* padding-bottom: 120px; */
 }
 
 .page-heading {
@@ -584,6 +585,11 @@ code {
   margin-right: auto;
 }
 
+.wrapper {
+  position: relative;
+  min-width: 100%;
+}
+
 hr {
   margin: 40px 0 40px 0;
 }
@@ -604,8 +610,26 @@ button.action-button {
 }
 
 div.footer {
+  position: absolute;
+  width: 100%;
+  /* max-height: 100px; */
+}
+
+div.footer-content {
   background-color: $footer-color;
-  height: 80px;
+  height: 120px;
+}
+
+div.footer-links {
+  margin: auto;
+  padding: 10px 40px 0 40px;
+  max-width: $content-width;
+}
+
+div.footer-copyright {
+  font-size: 8px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
 }
 
 div.grass {
@@ -613,6 +637,16 @@ div.grass {
   height: 20px;
   margin: 0;
   padding: 0;
+}
+
+.footer-page-link {
+  font-size: 10px;
+  color: $text-color;
+  font-weight: normal;
+}
+
+.footer-link {
+  line-height: 1;
 }
 
 .phone-row {
