@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <body>
-  <div class="wrapper">
+  <div class="body-wrapper">
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -33,7 +33,9 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     {% include header.html %}
-    {{ content }}
+    <div class="main-body-content">
+      {{ content }}
+    </div>
     {% include footer.html %}
   </div>
 </body>
