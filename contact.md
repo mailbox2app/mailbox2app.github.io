@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
+<div class="center">
 <h1>Do you want to share anything with us?</h1>
+</div>
 <div class="page-content post-content" style="margin-left: 5px; margin-right: 5px;">
   <div id="contact" class="email-form">
   <form action="https://docs.google.com/forms/d/1R1W0p1MNhr_uZ4-l7AdNkaBwUhTJwHZfLRzX-7-qyqM/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
