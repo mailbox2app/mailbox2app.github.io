@@ -2,6 +2,7 @@
 layout: page
 title: Mailbox
 permalink: /mailbox/
+redirect_from: /Mailbox/
 ---
 
   <div class="page-content post-content" style="margin-left: 5px; margin-right: 5px;">
