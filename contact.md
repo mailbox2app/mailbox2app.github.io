@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+longtitle: Mailbox 2 - Go trough your mailbox in seconds again | Contact
+excerpt: Contact Mailbox2 - iOS and Android email app inspired by Mailbox. Let's make email handling fast again.
 permalink: /contact/
 ---
 

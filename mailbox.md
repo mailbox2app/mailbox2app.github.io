@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Mailbox
+longtitle: Mailbox 2 - Let's make Mailbox app alive again.
+excerpt: We're creating Mailbox app clone to make email manageable again.
 permalink: /mailbox/
 redirect_from: /Mailbox/
 ---
 
   <div class="page-content post-content" style="margin-left: 5px; margin-right: 5px;">
   <div>
-    <h1 class="center">Let's get mailbox app alive again. Like it should be.</h1>
+    <h1 class="center">Let's get Mailbox app alive again. Like it should be.</h1>
   <p>​If you got here, then you're probably disappointed (exactly like we are) that Dropbox® is discontinuing the best email application that ever existed - Mailbox®. (if you're not, but want to quickly cleanup your inbox to Zero, check <a href="/about">what it's all about</a>)
 </p><p>
 So many times Mailbox has helped us to quickly get rid of all unimportant stuff from our Inboxes, focus on things that mattered and postpone what couldn't be handled right now. We think, that none of current mobile email apps follows it's spirit. None of them is so focused on wiping out Inbox in just few seconds.</p>

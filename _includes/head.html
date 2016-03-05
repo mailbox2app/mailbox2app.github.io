@@ -2,9 +2,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.longtitle %}{{ page.longtitle }}{% else if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="mail,email,client,mailbox,mailbox2,inbox,dropbox,zero,triage,archive,postpone,todo,app,ios,android,mac,web">
+  <meta name="keywords" content="mail,email,client,mailbox,mailbox2,mailbox alteratives,mailbox dead,mailbox end,inbox,dropbox,zero,triage,archive,postpone,todo,app,ios,android,mac,web">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="fb:app_id" content="132795677106302" />
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>

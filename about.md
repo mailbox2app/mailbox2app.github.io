@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+longtitle: Mailbox 2 - Go trough your mailbox in seconds again
+excerpt: iOS and Android email app inspired by Mailbox. Let's make email handling fast again.
 permalink: /about/
 ---
 
